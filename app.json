@@ -1,0 +1,21 @@
+{
+  "name": "breeyae-tea-react-challenge",
+  "description": "Submission for the TEA React Challenge",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

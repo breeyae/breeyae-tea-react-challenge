@@ -1,0 +1,16 @@
+.jumbotron {
+    height: 100%;
+    padding: 120px 24px;
+    color: white;
+    background-image: linear-gradient(to bottom right, rgb(0, 30, 60), #1976d2);
+}
+
+.jumbotron-large {
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+@media screen and (max-width: 430px) {
+    .jumbotron {
+        padding: 60px 24px;
+    }
+}

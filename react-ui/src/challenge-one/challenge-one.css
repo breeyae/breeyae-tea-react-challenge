@@ -1,0 +1,48 @@
+.container {
+    padding: 24px;
+}
+
+.container .tweets ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.container li {
+    margin: 16px;
+}
+
+.container .tweets li {
+    border: solid black 1px;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.container .followers ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.container .followers li {
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border-radius: 24px;
+    margin-right: 16px;
+}
+
+.error-message {
+    padding: 24px;
+    background: #f8d7da;
+    color: #721c24;
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+}
+
+.error-message svg {
+    margin-right: 8px;
+}
